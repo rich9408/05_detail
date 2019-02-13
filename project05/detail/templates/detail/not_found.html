@@ -1,0 +1,16 @@
+{% extends "detail/base.html" %}
+{% load staticfiles %}
+
+
+{% block bb %}
+
+<link rel="stylesheet" href="{% static 'css/11.css' %}">
+
+    <header>
+        <div class="img d-flex justify-content-center align-items-center" id="123">
+            <div class="">
+                <h1>{{not_found}} 는 없는 경로입니다.</h1>
+            </div>
+        </div>
+    </header>
+{% endblock %}
